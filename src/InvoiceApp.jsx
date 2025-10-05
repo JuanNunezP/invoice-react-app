@@ -56,7 +56,8 @@ export const InvoiceApp = () => {
 
     useEffect(() => {
         const data = getInvoice();
-
+          
+      
         setInvoice(data);
         setItems(data.items);
     }, []);
@@ -87,7 +88,6 @@ export const InvoiceApp = () => {
 
                     {/* Cliente / Empresa */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
                         <InvoiceCustomerData client={client} country={country} city={city} street={street} number={number} />
                         <InvoiceCompanyData company={company} />
                     </div>

@@ -2,8 +2,8 @@ export const invoice = {
     id: 10,
     name: 'Componentes PC',
     client: {
-        name: 'Pepe',
-        lastName: 'Doe',
+        name: 'Jessica',
+        lastName: 'Solano',
         address: {
             country: 'USA',
             city: 'Los Angeles',
